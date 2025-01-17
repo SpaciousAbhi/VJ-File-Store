@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "4770590"))
 API_HASH = environ.get("API_HASH", "e33bf9032335b874acb9c6406f044836")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7184578061:AAGhV3TJnirc0IlYXKkhCZVc2TegKiE1Ia8")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/eb119179b4d2a13e71163.jpg https://telegra.ph/file/dc5a1a49c2786685ff97a.jpg https://telegra.ph/file/1a9519a68c4d45ac9455a.jpg https://telegra.ph/file/e5a3d6969f2082eecc3c1.jpg https://telegra.ph/file/57d6d774cf4baf2de5968.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1654334233').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "VenomStoneFileStoreBot") # without @
 PORT = environ.get("PORT", "8080")
