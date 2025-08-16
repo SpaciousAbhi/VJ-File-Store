@@ -69,7 +69,7 @@ CDB_NAME = environ.get("CDB_NAME", "")
 
 DB_URI = environ.get(
     "DB_URI",
-    "mongodb+srv://todilinye:KBX8pJW4rvfoFkfM@cluster0.qrwrk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://kajaki7757:kGDRiPGNX691vlCL@cluster0.ylww9nv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 DB_NAME = environ.get("DB_NAME", "cluster0")
 
